@@ -6,7 +6,19 @@ using System.Threading.Tasks;
 
 namespace CodeFirstCat
 {
-    class CatThread
+    public class CatThread
     {
+        public int CatThreadId { get; set; }
+        public User User { get; set; }
+        public String Titre { get; set; }
+        public String UriPhoto { get; set; }
+        public bool Deleted { get; set; }
+        public DateTime? CreationDate { get; set; }
+        public ICollection<Comment> Comments { get; set; }
+
+        public CatThread()
+        {
+
+        }
     }
 }

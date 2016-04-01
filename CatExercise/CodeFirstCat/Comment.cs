@@ -8,17 +8,17 @@ namespace CodeFirstCat
 {
     public class Comment
     {
-        public int CatThreadId { get; set; }
-        public String Login { get; set; }
-        public String Titre { get; set; }
-        public String UriPhoto { get; set; }
-        public bool Deleted { get; set; }
-        public DateTime? CreationDate { get; set; }
+        public int CommentID { get; set; } 
+        public User User { get; set; }
+        public CatThread CatThread;
+        public String Login;
+        public DateTime? CreationDate;
+        public bool Deleted;
+        public String Content;
 
         public Comment()
         {
-            Deleted = false;
-            CreationDate = DateTime.Now;
+
         }
     }
 }
