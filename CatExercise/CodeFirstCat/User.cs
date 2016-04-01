@@ -12,7 +12,7 @@ namespace CodeFirstCat {
         public String Pseudo { get; set; }
         public Boolean Banish { get; set; }
         public int Seclevel { get; set; }
-        public DateTime Creationdate { get; set; }
+        public DateTime? Creationdate { get; set; }
         public ICollection<CatThread> CatThreads { get; set; }
         public ICollection<Comment> Comments { get; set; }
 
