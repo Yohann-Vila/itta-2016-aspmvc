@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CodeFirstCat
 {
-    public class Class1
+    class CatThread
     {
     }
 }
