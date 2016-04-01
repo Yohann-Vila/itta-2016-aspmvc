@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace CodeFirstCat {
     class User {
+    public int UserID { get; set; }
     public String Login { get; set; }
     public String Password { get; set; }
     public String Pseudo { get; set; }
